@@ -1,0 +1,37 @@
+{
+  "name": "daisyui-project",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build;"
+  },
+  "browserslist": "last 2 versions",
+  "targets": {
+    "default": {
+      "distDir": "./build/"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbulakh/daisyui-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbulakh/daisyui-project/issues"
+  },
+  "homepage": "https://github.com/bbulakh/daisyui-project#readme",
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.9.2",
+    "@parcel/transformer-webmanifest": "^2.9.2",
+    "daisyui": "^3.1.1",
+    "parcel": "^2.9.2",
+    "postcss": "^8.4.24",
+    "prettier": "^2.8.8",
+    "prettier-plugin-tailwindcss": "^0.3.0",
+    "tailwindcss": "^3.3.2"
+  }
+}
