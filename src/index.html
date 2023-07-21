@@ -70,7 +70,7 @@
     <!-- /hero  -->
 
     <!-- stack  -->
-    <section class="py-10 px-[16px] container mx-auto">
+    <section class="py-10 px-[16px] container mx-auto max-w-[1000px]">
         <h2 class="text-3xl font-bold mb-10">My stack</h2>
         <div class="grid grid-cols-4 md:grid-cols-4 lg:grid-cols-7 gap-10 md:place-items-center">
 
@@ -188,7 +188,7 @@
     <!-- /stack  -->
 
     <!-- projects -->
-    <section class="py-10 container mx-auto">
+    <section class="py-10 container mx-auto max-w-[1000px]">
         <h2 class="px-[16px] text-3xl font-bold mb-10">Featured projects</h2>
         <div class="collapse collapse-arrow border-b rounded-none mb-5">
             <input type="radio" name="my-accordion-2" checked="checked" />
@@ -281,7 +281,7 @@
     <!-- /projects  -->
 
     <!-- work experience  -->
-    <section class="py-10 px-[16px] container mx-auto">
+    <section class="py-10 px-[16px] container mx-auto max-w-[1000px]">
         <h2 class="text-3xl font-bold mb-10">Work Experience</h2>
 
         <div class="flex flex-col my-5">
@@ -330,7 +330,7 @@
                     </div>
                 </div>
 
-               
+
             </div>
         </div>
 
@@ -387,8 +387,15 @@
     <!-- /work experience  -->
 
     <!-- contact me  -->
-    <section class="py-10 px-[16px] container mx-auto">
+    <section class="py-10 px-[16px] container mx-auto max-w-[1000px]">
         <h2 class="text-3xl font-bold mb-10">Contact me</h2>
+
+
+        <form class="w-full flex gap-3 flex-col" autocomplete="on" action="">
+            <input class="border py-2 px-2" type="text" name="name" placeholder="Name">
+            <textarea class="border px-2 py-2" name="message" id="message" placeholder="Enter the message..." cols="30" rows="5"></textarea>
+            <button class="btn btn-warning" type="submit">Send Message</button>
+        </form>
 
 
 
